@@ -25,7 +25,14 @@ const CharactersListing = () => {
   return (
     <div>
       <Grid
-        sx={{ mt: 4, m: 0, mb: 5, display: "flex", justifyContent: "center" }}
+        sx={{
+          mt: 6,
+          ml: 0,
+          mr: 0,
+          mb: 5,
+          display: "flex",
+          justifyContent: "center",
+        }}
         container
         spacing={2}
       >
