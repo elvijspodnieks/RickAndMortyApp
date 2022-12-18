@@ -10,6 +10,7 @@ const About = () => {
     <>
       <Box
         sx={{
+          mt: { sm: 6, xs: 0 },
           pt: 8,
           pb: 6,
           flex: 1,
@@ -52,7 +53,7 @@ const About = () => {
             </Button>
             <Button
               style={{ color: "#3F3B6C", borderColor: "#3F3B6C" }}
-              href="/series"
+              href="https://www.tvguide.com/tvshows/rick-and-morty/1000563101/"
               variant="outlined"
             >
               Where to watch
