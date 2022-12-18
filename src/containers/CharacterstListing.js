@@ -24,17 +24,13 @@ const CharactersListing = () => {
 
   return (
     <div>
-      <Container
-        sx={{ m: 1, mt: 5, display: "flex", justifyContent: "center" }}
+      <Grid
+        sx={{ mt: 4, m: 0, mb: 5, display: "flex", justifyContent: "center" }}
+        container
+        spacing={2}
       >
-        <Grid
-          sx={{ display: "flex", justifyContent: "center" }}
-          container
-          spacing={2}
-        >
-          <CharComponent />
-        </Grid>
-      </Container>
+        <CharComponent />
+      </Grid>
     </div>
   );
 };

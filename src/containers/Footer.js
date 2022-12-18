@@ -23,8 +23,17 @@ function Copyright() {
 
 const Footer = () => {
   return (
-    <div>
-      <AppBar style={{ background: "#3F3B6C" }} position="static">
+    <div elevation={0}>
+      <AppBar
+        style={{
+          background: "#3F3B6C",
+          bottom: 0,
+          justifyContent: "flex-end",
+          flex: 1,
+        }}
+        elevation={0}
+        position="static"
+      >
         <Container sx={{ mt: 3, display: "flex", justifyContent: "center" }}>
           <Link href="https://www.facebook.com" target="_blank">
             <FacebookIcon style={{ color: "white" }} sx={{ m: 0.5 }} />

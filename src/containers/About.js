@@ -12,10 +12,12 @@ const About = () => {
         sx={{
           pt: 8,
           pb: 6,
+          flex: 1,
         }}
       >
         <Container maxWidth="sm">
           <Typography
+            sx={{ typography: { sm: "12px", xs: "42px" } }}
             component="h1"
             variant="h2"
             align="center"

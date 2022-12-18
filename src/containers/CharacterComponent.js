@@ -11,7 +11,7 @@ const CharacterComponent = () => {
   const renderList = characters.map((character) => {
     const { id, image, name } = character;
     return (
-      <Card key={id} sx={{ width: 260, m: 2, boxShadow: 3 }}>
+      <Card key={id} sx={{ width: 280, m: 2, boxShadow: 3 }}>
         <CardMedia
           component="img"
           alt="green iguana"
